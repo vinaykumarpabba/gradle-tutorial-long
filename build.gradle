@@ -1,8 +1,11 @@
-
-tasks.register("copyMessageFile", Copy) {
-    from 'important-messages.txt'
-    into "$buildDir"
+plugins {
+    id 'base'
 }
+
+//tasks.register("copyMessageFile", Copy) {
+//    from 'important-message.txt'
+//    into "$buildDir"
+//}
 
 //task.named("build") {
 //    dependsOn tasks.named("copyMessageFile")

@@ -13,4 +13,9 @@
 - There is no `gradle wrapper` as of now since we created the project manually.
 - After adding the `gradle.build` file and adding a `println` statement, if we run `gradle` in the terminal, it will print the text.
 
-- The `copyMessageFile` is supposed to copy the file but the `build` directory wasn't getting created.
+- The `copyMessageFile` copies the file into the `build` directory.
+
+
+- Plugins register tasks into the project.
+- The `base` plugin adds `assemble`, `build`, and 'clean' tasks. So build wasn't working before?
+- 
