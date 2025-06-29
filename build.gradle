@@ -1,2 +1,5 @@
 
-println "This is the 30 seconds project"
+def a = 2
+def b = 3
+
+println a + b
