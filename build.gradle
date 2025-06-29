@@ -1,5 +1,9 @@
 
-def a = 2
-def b = 3
+tasks.register("copyMessageFile", Copy) {
+    from 'important-messages.txt'
+    into "$buildDir"
+}
 
-println a + b
+//task.named("build") {
+//    dependsOn tasks.named("copyMessageFile")
+//}
