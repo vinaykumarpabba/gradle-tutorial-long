@@ -1,0 +1,3 @@
+- Projects can be small or big.
+- Project consists of a project directory and a single `settings.gradle` file with the project name.
+- 
